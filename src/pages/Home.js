@@ -1,3 +1,4 @@
+import Counter from "../components/Counter"
 const Home = () => {
 
     return (
@@ -5,7 +6,7 @@ const Home = () => {
         <div className="row">
 
             <div className="col">
-                
+                <Counter/>
             </div>
 
             <div className="col">
