@@ -1,22 +1,19 @@
 import Counter from "../components/Counter"
-const Home = () => {
 
-    return (
-        <>
+const Home = () => {
+    return (        
         <div className="row">
 
             <div className="col">
-                <Counter/>
+                <Counter />
             </div>
 
             <div className="col">
                 
             </div>
             
-        </div>
-        </>
+        </div>        
     )
-
 }
 
 export default Home;

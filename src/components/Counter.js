@@ -2,19 +2,20 @@ import React, {useState} from "react"
 
 function Counter() {
 
-    const [cont, setCont] = useState(0) 
+    const [cont, setCont] = useState(0);
 
-    function increment() {
+    const increment = () => {
         setCont(cont +1)
     }
     
-    function decrement() {
+    const decrement = () => {
         setCont(cont -1)
     }
-
-    function reset() {
+    
+    const reset = () => {
         setCont(0)
     }
+
     return (
         <> 
             <div className="container">
