@@ -2,7 +2,17 @@ const Home = () => {
 
     return (
         <>
-            <h1>Bienvenido</h1>
+        <div className="row">
+
+            <div className="col">
+                
+            </div>
+
+            <div className="col">
+                
+            </div>
+            
+        </div>
         </>
     )
 
